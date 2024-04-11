@@ -1,0 +1,137 @@
+.container-fluid {
+  padding-right:0px;
+  padding-left:0px;
+  height: 1000px;
+  margin-right:0;
+  margin-left:0;
+  background-color: #FFFCF4;
+}
+
+.topnav {
+  margin: 0px;
+  margin-top: 25px;
+  background-color:#254B1A;
+}
+
+.row {
+  margin: 0px;
+  margin-top: 0px;
+}
+
+/* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+/*.row.content {height: 800px} */
+
+/* Set gray background color and 100% height */
+
+/* The sidebar menu */
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 400px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 100px; /* Stay at the top */
+  left: 0;
+  background-color: #254B1A;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+/* The navigation menu links */
+.topnav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 400;
+  color: #FFFCF4;
+  display: block;
+  text-align: center;
+}
+
+.contentBlurb {
+  margin-top: 25px;
+  margin-left: 0px;
+}
+
+.image {
+  margin-top: 25px;
+  margin-left: 0px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.topnav a:hover {
+  color: #EFA300;
+}
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+/* On small screens, set height to 'auto' for the grid */
+@media screen and (max-width: 767px) {
+  .row.content {height: auto;}
+}
+
+body {
+  font-family: 'Palatino Linotype', sans-serif;
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+}
+
+button {
+  font-size: 14px;
+  text-align: center;
+  align: center;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 360;
+  color: #254B1A;
+  margin-top: 20px;
+  text-align: left;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #254B1A;
+}
+
+h3 {
+  font-weight: 300;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #254B1A;
+}
+
+h4 {
+  font-weight: 300;
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  color: #254B1A;
+}
+
+p {
+  color: #254B1A;
+}
+
+img {
+  border:4px solid #254B1A;
+}
+
+.text {
+  font-size: 20px;
+  padding-left: 20px;
+  padding-top: 50px;
+  float: left;
+}
+
